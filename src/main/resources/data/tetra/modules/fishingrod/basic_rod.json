@@ -1,0 +1,65 @@
+{
+  "replace": true,
+  "type": "tetra:basic_major_module",
+  "slots": [
+    "fishingrod/rod"
+  ],
+  "renderLayer": "lower",
+  "improvements": [
+    "tetra:fishingrod/basic_rod/"
+  ],
+  "variants": [
+    {
+      "materials": [ "tetra:wood/", "tetra:bone/", "tetra:rod/" ],
+      "key": "basic_rod/",
+      "attributes": {
+        "forge:reach_distance": 1.0,
+        "forge:attack_range": 1.0
+      },
+      "aspects": {
+        "fishing_rod": 2
+      },
+      "durability": 7,
+      "integrity": 1,
+      "extract": {
+        "secondaryAttributes": {
+          "generic.attack_speed": -0.2
+        },
+        "durability": 0.3,
+        "integrity": 1,
+        "magicCapacity": 1,
+        "glyph": {
+          "textureX": 16
+        },
+        "availableTextures": [ "default", "metal", "bone", "bright" ],
+        "models": [ { "location": "tetra:item/module/fishingrod/rod/basic/" } ]
+      }
+    },
+    {
+      "materials": [ "tetra:metal/" ],
+      "key": "basic_rod/",
+      "attributes": {
+        "forge:reach_distance": 1.0,
+        "forge:attack_range": 1.0
+      },
+      "aspects": {
+        "fishing_rod": 2
+      },
+      "durability": 7,
+      "integrity": 1,
+      "extract": {
+        "secondaryAttributes": {
+          "generic.attack_speed": -0.2
+        },
+        "durability": 0.3,
+        "integrity": 1,
+        "magicCapacity": 1,
+        "glyph": {
+          "textureX": 16
+        },
+        "availableTextures": [ "default", "metal", "bone", "bright" ],
+        "models": [ { "location": "tetra:item/module/fishingrod/rod/basic/" } ]
+      }
+    }
+  ]
+}

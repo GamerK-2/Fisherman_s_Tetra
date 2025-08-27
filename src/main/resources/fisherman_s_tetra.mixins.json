@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.gamerk2.fisherman_s_tetra.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "tetra_gui_compat.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
