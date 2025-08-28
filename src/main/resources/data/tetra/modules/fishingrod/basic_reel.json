@@ -1,0 +1,66 @@
+{
+    "replace": true,
+    "slots": [
+        "fishingrod/reel"
+    ],
+    "type": "tetra:basic_module",
+    "renderLayer": "higher",
+    "variants": [
+        {
+            "materials": [ "tetra:wood/", "tetra:bone/", "tetra:rod/" ],
+            "key": "basic_reel/",
+            "extract": {
+                "secondaryAttributes": {
+                    "generic.luck": 0.5
+                },
+                "durability": 0.2,
+                "integrity": 0.7,
+                "glyph": {
+                    "textureX": 88,
+                    "textureY": 112
+                },
+                "availableTextures": [
+                    "default"
+                ],
+                "models": [
+                    {
+                        "type": "cast",
+                        "location": "tetra:item/module/fishingrod/reel/basic/"
+                    },
+                    {
+                        "type": "uncast",
+                        "location": "tetra:item/module/fishingrod/reel/basic/"
+                    }
+                ]
+            }
+        },
+        {
+            "materials": [ "tetra:metal/" ],
+            "key": "basic_reel/",
+            "extract": {
+                "secondaryAttributes": {
+                    "generic.luck": 0.3
+                },
+                "durability": 0.3,
+                "integrity": 0.7,
+                "glyph": {
+                    "textureX": 88,
+                    "textureY": 112
+                },
+                "availableTextures": [
+                    "default"
+                ],
+                "models": [
+                    {
+                        "type": "cast",
+                        "location": "tetra:item/module/fishingrod/reel/basic/"
+                    },
+                    {
+                        "type": "uncast",
+                        "location": "tetra:item/module/fishingrod/reel/basic/"
+                    }
+                ]
+            }
+        }
+    ]
+}

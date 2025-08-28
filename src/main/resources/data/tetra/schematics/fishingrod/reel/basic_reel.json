@@ -1,0 +1,19 @@
+{
+  "replace": true,
+  "slots": [
+    "fishingrod/reel"
+  ],
+  "materialSlotCount": 1,
+  "displayType": "major",
+  "glyph": {
+    "textureX": 80,
+    "textureY": 112
+  },
+  "outcomes": [
+    {
+      "materials": [ "tetra:metal/" ],
+      "moduleKey": "fishingrod/basic_reel",
+      "moduleVariant": "basic_reel/"
+    }
+  ]
+}

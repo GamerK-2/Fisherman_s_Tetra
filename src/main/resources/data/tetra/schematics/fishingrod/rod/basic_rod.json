@@ -18,7 +18,7 @@
     },
     "outcomes": [
         {
-            "materials": [ "tetra:wood/", "tetra:metal/", "tetra:bone/", "tetra:rod/" ],
+            "materials": [ "tetra:wood/", "tetra:metal/copper", "tetra:metal/iron", "tetra:metal/gold", "tetra:bone/", "tetra:rod/" ],
             "moduleKey": "fishingrod/basic_rod",
             "moduleVariant": "basic_rod/"
         }
